@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_1"
+        android:title="Home"
+        android:icon="@drawable/ic_icon_home"/>
+    <item android:id="@+id/menu_2"
+        android:title="Mantenimientos"
+        android:icon="@drawable/ic_icon_mant"/>
+    <item android:id="@+id/menu_3"
+        android:title="Estacionamientos"
+        android:icon="@drawable/ic_icon_parking"/>
+</menu>
