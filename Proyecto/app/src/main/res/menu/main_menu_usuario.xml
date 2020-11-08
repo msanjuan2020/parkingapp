@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_1"
+        android:title="Home"
+        android:icon="@drawable/ic_icon_home"/>
+    <item android:id="@+id/menu_2"
+        android:title="Estacionamientos"
+        android:icon="@drawable/ic_icon_parking"/>
+    <item android:id="@+id/menu_3"
+        android:title="Perfil"
+        android:icon="@drawable/ic_icon_user_circle"/>
+    <item android:id="@+id/menu_4"
+        android:title="Historial"
+        android:icon="@drawable/ic_icon_history"/>
+</menu>
