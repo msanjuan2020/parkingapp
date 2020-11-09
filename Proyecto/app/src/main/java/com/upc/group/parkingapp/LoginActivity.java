@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         asignarReferencias();
     }
-
+//este metodo sirve para asignar referencias
     private void asignarReferencias() {
         btnEntrar = findViewById(R.id.btnEntrar);
 
