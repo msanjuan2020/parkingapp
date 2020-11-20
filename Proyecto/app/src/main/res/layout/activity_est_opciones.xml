@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnBuscarEstacionamiento" />
 
     <Button
-        android:id="@+id/btnLiberarEst"
+        android:id="@+id/btnLiberarEstacionamiento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
@@ -53,17 +53,17 @@
         app:layout_constraintTop_toBottomOf="@+id/btnMarcarIS" />
 
     <Button
-        android:id="@+id/btnConfirmarSalida"
+        android:id="@+id/btnConfirmarContinuidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="35dp"
-        android:text="Confirmar Salida"
+        android:text="Confirmar Continuidad"
         android:textSize="22sp"
         android:textColor="@color/buttonLetter"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLiberarEst" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLiberarEstacionamiento" />
 </androidx.constraintlayout.widget.ConstraintLayout>

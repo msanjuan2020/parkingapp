@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.upc.group.parkingapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,15 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".EstOpciones" android:parentActivityName=".MainMenuUsuario"/>
-        <activity
-            android:name=".MainMenuAdmin"/>
-        <activity
-            android:name=".MainMenuUsuario"/>
+
+        <activity android:name=".VerDetalleSede" android:parentActivityName=".BuscarEstacionamiento"></activity>
+        <activity android:name=".BuscarEstacionamiento" android:parentActivityName=".EstOpciones"></activity>
+        <activity android:name=".EstOpciones" android:parentActivityName=".MainMenuUsuario"></activity>
+        <activity android:name=".MainMenuAdmin" />
+        <activity android:name=".MainMenuUsuario" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
