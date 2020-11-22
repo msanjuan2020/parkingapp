@@ -13,9 +13,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
-
         <activity android:name=".VerDetalleSede" android:parentActivityName=".BuscarEstacionamiento"></activity>
-
         <activity android:name=".BuscarEstacionamiento" android:parentActivityName=".EstOpciones"></activity>
         <activity android:name=".EstOpciones" android:parentActivityName=".MainMenuUsuario"></activity>
         <activity android:name=".MainMenuAdmin" />
@@ -26,8 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"/>
         <activity android:name=".MainRegistroUsuario" android:label="Registrar nuevo usuario en Parking App"></activity>
+        <activity android:name=".RegistrarEmpresaFBActivity" android:parentActivityName=".MantOpciones"></activity>
+        <activity android:name=".MantOpciones" android:parentActivityName=".MainMenuAdmin"></activity>
     </application>
 
 </manifest>

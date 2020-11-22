@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="horarios">
+        <item>Lunes a Viernes, 07:00 - 14:00</item>
+        <item>Lunes a Viernes, 07:00 - 23:00</item>
+        <item>Lunes a Viernes, 07:00 - 20:00</item>
+        <item>Lunes a Viernes, 24 horas</item>
+        <item>Lunes a Sábado, 07:00 - 12:00</item>
+        <item>Lunes a Sábado, 07:00 - 14:00</item>
+        <item>Lunes a Sábado, 07:00 - 20:00</item>
+        <item>Lunes a Sábado, 24 horas</item>
+        <item>Lunes a Domingo, 07:00 - 12:00</item>
+        <item>Lunes a Domingo, 07:00 - 14:00</item>
+        <item>Lunes a Domingo, 07:00 - 20:00</item>
+        <item>Lunes a Domingo, 24 horas</item>
+    </string-array>
+</resources>
