@@ -23,34 +23,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnMarcarIS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="35dp"
-        android:text="Marcar Ingreso/Salida"
-        android:textSize="22sp"
-        android:textColor="@color/buttonLetter"
-        android:background="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBuscarEstacionamiento" />
-
-    <Button
         android:id="@+id/btnLiberarEstacionamiento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="35dp"
-        android:text="Liberar Estacionamiento"
-        android:textSize="22sp"
-        android:textColor="@color/buttonLetter"
         android:background="@color/colorPrimary"
+        android:text="Liberar Estacionamiento"
+        android:textColor="@color/buttonLetter"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMarcarIS" />
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscarEstacionamiento" />
 
     <Button
         android:id="@+id/btnConfirmarContinuidad"

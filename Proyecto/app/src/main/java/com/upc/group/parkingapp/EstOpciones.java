@@ -23,7 +23,6 @@ public class EstOpciones extends AppCompatActivity {
 
     private void asignarReferencias() {
         btnBuscarEstacionamiento = findViewById(R.id.btnBuscarEstacionamiento);
-        btnMarcarIS = findViewById(R.id.btnMarcarIS);
         btnLiberarEstacionamiento = findViewById(R.id.btnLiberarEstacionamiento);
         btnConfirmarContinuidad = findViewById(R.id.btnConfirmarContinuidad);
 
