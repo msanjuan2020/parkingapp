@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btnEntrar;
     EditText txtUser, txtPassword;
     FirebaseDatabase db;
+    FloatingActionButton add_button;
     DatabaseReference reference;
     String tipoUsuario="";
 
@@ -45,11 +47,20 @@ public class LoginActivity extends AppCompatActivity {
         txtUser = findViewById(R.id.txtUser);
         txtPassword = findViewById(R.id.txtPassword);
         btnEntrar = findViewById(R.id.btnEntrar);
+        add_button = findViewById(R.id.add_button);
 
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 validarUsuario();
+            }
+        });
+
+        add_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, MainRegistroUsuario.class);
+                startActivity(intent);
             }
         });
     }

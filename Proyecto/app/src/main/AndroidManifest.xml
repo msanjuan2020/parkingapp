@@ -13,7 +13,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
+
         <activity android:name=".VerDetalleSede" android:parentActivityName=".BuscarEstacionamiento"></activity>
+
         <activity android:name=".BuscarEstacionamiento" android:parentActivityName=".EstOpciones"></activity>
         <activity android:name=".EstOpciones" android:parentActivityName=".MainMenuUsuario"></activity>
         <activity android:name=".MainMenuAdmin" />
@@ -25,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".MainRegistroUsuario" android:label="Registrar nuevo usuario en Parking App"></activity>
     </application>
 
 </manifest>
