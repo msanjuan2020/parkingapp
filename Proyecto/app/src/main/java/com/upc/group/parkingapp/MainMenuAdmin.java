@@ -18,6 +18,7 @@ public class MainMenuAdmin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu_admin);
         asignarReferencias();
+        asignarReferencias2();
     }
 
     private void asignarReferencias() {
@@ -36,4 +37,20 @@ public class MainMenuAdmin extends AppCompatActivity {
             }
         });
     }
+    //private void asignarReferencias2() {
+     //   menuOpciones = findViewById(R.id.botonNavegacion);
+     //   menuOpciones.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+      //      @Override
+      //      public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+      //          Intent intent;
+
+      //          if(menuItem.getItemId() == R.id.menu_3) {
+       //             intent = new Intent(MainMenuAdmin.this, MantOpciones.class);
+      //              startActivity(intent);
+        //        }
+
+         //       return false;
+      //      }
+      //  });
+   // }
 }
